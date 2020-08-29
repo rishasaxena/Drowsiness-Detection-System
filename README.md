@@ -3,3 +3,5 @@ A Drowsiness / Eye_Status(Open?Closed) System built using Python, OpenCV With th
 Our Project will proceed in these steps :
 
 Step 1 – Take image as input from a camera. Step 2 – Detect the face in the image and create a Region of Interest (ROI). Step 3 – Detect the eyes from ROI and feed it to the classifier. Step 4 – Classifier will categorize whether eyes are open or closed. Step 5 – Calculate score to check whether the person is drowsy.
+
+Designed a CNN Eye-cascade Classifier to classify the Eye-Pupil data-sets with a test accuracy of more than 90%. - Implemented a system which detects Drowsiness / Sleepy Eyes of person and alerts with emergency alarm until eyes are completely opened till the Eye-Threshold Value reaches <15 . - Implemented Manual Threshold Slider for light / brightness intensity to produce efficient detection of above 95% .
